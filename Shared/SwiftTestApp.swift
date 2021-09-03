@@ -9,6 +9,11 @@ import SwiftUI
 
 @main
 struct SwiftTestApp: App {
+    init() {
+        Task.detached(priority: .userInitiated) {
+            try await TestGroupTest().test()
+        }
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -13,6 +13,25 @@
 		82748F9B26DA3311005C4F1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748F8B26DA330F005C4F1C /* ContentView.swift */; };
 		82748F9C26DA3311005C4F1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82748F8C26DA3311005C4F1C /* Assets.xcassets */; };
 		82748F9D26DA3311005C4F1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82748F8C26DA3311005C4F1C /* Assets.xcassets */; };
+		82748FA726DA3334005C4F1C /* CGFloatDoubleConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FA626DA3334005C4F1C /* CGFloatDoubleConversion.swift */; };
+		82748FA826DA3334005C4F1C /* CGFloatDoubleConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FA626DA3334005C4F1C /* CGFloatDoubleConversion.swift */; };
+		82748FAA26DA3402005C4F1C /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FA926DA3402005C4F1C /* AsyncAwait.swift */; };
+		82748FAB26DA3402005C4F1C /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FA926DA3402005C4F1C /* AsyncAwait.swift */; };
+		82748FAD26DA3BFF005C4F1C /* DCDCarAtlasImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FAC26DA3BFF005C4F1C /* DCDCarAtlasImageManager.swift */; };
+		82748FAE26DA3BFF005C4F1C /* DCDCarAtlasImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FAC26DA3BFF005C4F1C /* DCDCarAtlasImageManager.swift */; };
+		82748FB126DA3C91005C4F1C /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 82748FB026DA3C91005C4F1C /* SDWebImage */; };
+		82748FB326DA3DA2005C4F1C /* DCDAsyncCarAtlasImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FB226DA3DA2005C4F1C /* DCDAsyncCarAtlasImageManager.swift */; };
+		82748FB426DA3DA2005C4F1C /* DCDAsyncCarAtlasImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FB226DA3DA2005C4F1C /* DCDAsyncCarAtlasImageManager.swift */; };
+		82748FB726DB4982005C4F1C /* MainActorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FB626DB4982005C4F1C /* MainActorTest.swift */; };
+		82748FB826DB4982005C4F1C /* MainActorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FB626DB4982005C4F1C /* MainActorTest.swift */; };
+		82748FBA26DB5B27005C4F1C /* SendableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FB926DB5B27005C4F1C /* SendableTest.swift */; };
+		82748FBB26DB5B27005C4F1C /* SendableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FB926DB5B27005C4F1C /* SendableTest.swift */; };
+		82748FBD26DB665B005C4F1C /* ActorIsolationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FBC26DB665B005C4F1C /* ActorIsolationControl.swift */; };
+		82748FBE26DB665B005C4F1C /* ActorIsolationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FBC26DB665B005C4F1C /* ActorIsolationControl.swift */; };
+		82748FC026DBC984005C4F1C /* ActorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FBF26DBC984005C4F1C /* ActorTest.swift */; };
+		82748FC126DBC984005C4F1C /* ActorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FBF26DBC984005C4F1C /* ActorTest.swift */; };
+		82748FC326DBCAAC005C4F1C /* TaskGroupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FC226DBCAAC005C4F1C /* TaskGroupTest.swift */; };
+		82748FC426DBCAAC005C4F1C /* TaskGroupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82748FC226DBCAAC005C4F1C /* TaskGroupTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +40,15 @@
 		82748F8C26DA3311005C4F1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82748F9126DA3311005C4F1C /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82748F9726DA3311005C4F1C /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82748FA626DA3334005C4F1C /* CGFloatDoubleConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatDoubleConversion.swift; sourceTree = "<group>"; };
+		82748FA926DA3402005C4F1C /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
+		82748FAC26DA3BFF005C4F1C /* DCDCarAtlasImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCDCarAtlasImageManager.swift; sourceTree = "<group>"; };
+		82748FB226DA3DA2005C4F1C /* DCDAsyncCarAtlasImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCDAsyncCarAtlasImageManager.swift; sourceTree = "<group>"; };
+		82748FB626DB4982005C4F1C /* MainActorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActorTest.swift; sourceTree = "<group>"; };
+		82748FB926DB5B27005C4F1C /* SendableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableTest.swift; sourceTree = "<group>"; };
+		82748FBC26DB665B005C4F1C /* ActorIsolationControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorIsolationControl.swift; sourceTree = "<group>"; };
+		82748FBF26DBC984005C4F1C /* ActorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorTest.swift; sourceTree = "<group>"; };
+		82748FC226DBCAAC005C4F1C /* TaskGroupTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82748FB126DA3C91005C4F1C /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +84,15 @@
 				82748F8A26DA330F005C4F1C /* SwiftTestApp.swift */,
 				82748F8B26DA330F005C4F1C /* ContentView.swift */,
 				82748F8C26DA3311005C4F1C /* Assets.xcassets */,
+				82748FA626DA3334005C4F1C /* CGFloatDoubleConversion.swift */,
+				82748FA926DA3402005C4F1C /* AsyncAwait.swift */,
+				82748FAC26DA3BFF005C4F1C /* DCDCarAtlasImageManager.swift */,
+				82748FB226DA3DA2005C4F1C /* DCDAsyncCarAtlasImageManager.swift */,
+				82748FB626DB4982005C4F1C /* MainActorTest.swift */,
+				82748FB926DB5B27005C4F1C /* SendableTest.swift */,
+				82748FBC26DB665B005C4F1C /* ActorIsolationControl.swift */,
+				82748FBF26DBC984005C4F1C /* ActorTest.swift */,
+				82748FC226DBCAAC005C4F1C /* TaskGroupTest.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -84,6 +122,9 @@
 			dependencies = (
 			);
 			name = "SwiftTest (iOS)";
+			packageProductDependencies = (
+				82748FB026DA3C91005C4F1C /* SDWebImage */,
+			);
 			productName = "SwiftTest (iOS)";
 			productReference = 82748F9126DA3311005C4F1C /* SwiftTest.app */;
 			productType = "com.apple.product-type.application";
@@ -132,6 +173,9 @@
 				Base,
 			);
 			mainGroup = 82748F8426DA330F005C4F1C;
+			packageReferences = (
+				82748FAF26DA3C91005C4F1C /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 82748F9226DA3311005C4F1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -167,7 +211,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				82748F9A26DA3311005C4F1C /* ContentView.swift in Sources */,
+				82748FB726DB4982005C4F1C /* MainActorTest.swift in Sources */,
+				82748FAD26DA3BFF005C4F1C /* DCDCarAtlasImageManager.swift in Sources */,
+				82748FBD26DB665B005C4F1C /* ActorIsolationControl.swift in Sources */,
+				82748FBA26DB5B27005C4F1C /* SendableTest.swift in Sources */,
+				82748FC026DBC984005C4F1C /* ActorTest.swift in Sources */,
 				82748F9826DA3311005C4F1C /* SwiftTestApp.swift in Sources */,
+				82748FC326DBCAAC005C4F1C /* TaskGroupTest.swift in Sources */,
+				82748FA726DA3334005C4F1C /* CGFloatDoubleConversion.swift in Sources */,
+				82748FAA26DA3402005C4F1C /* AsyncAwait.swift in Sources */,
+				82748FB326DA3DA2005C4F1C /* DCDAsyncCarAtlasImageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +229,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				82748F9B26DA3311005C4F1C /* ContentView.swift in Sources */,
+				82748FB826DB4982005C4F1C /* MainActorTest.swift in Sources */,
+				82748FAE26DA3BFF005C4F1C /* DCDCarAtlasImageManager.swift in Sources */,
+				82748FBE26DB665B005C4F1C /* ActorIsolationControl.swift in Sources */,
+				82748FBB26DB5B27005C4F1C /* SendableTest.swift in Sources */,
+				82748FC126DBC984005C4F1C /* ActorTest.swift in Sources */,
 				82748F9926DA3311005C4F1C /* SwiftTestApp.swift in Sources */,
+				82748FC426DBCAAC005C4F1C /* TaskGroupTest.swift in Sources */,
+				82748FA826DA3334005C4F1C /* CGFloatDoubleConversion.swift in Sources */,
+				82748FAB26DA3402005C4F1C /* AsyncAwait.swift in Sources */,
+				82748FB426DA3DA2005C4F1C /* DCDAsyncCarAtlasImageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +371,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,7 +401,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,6 +506,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		82748FAF26DA3C91005C4F1C /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		82748FB026DA3C91005C4F1C /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82748FAF26DA3C91005C4F1C /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 82748F8526DA330F005C4F1C /* Project object */;
 }
