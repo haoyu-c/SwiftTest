@@ -87,10 +87,6 @@ actor DCDAsyncCarAtlasImageManager: NSObject {
         return imageMap
     }
     
-    private func set(group: ThrowingTaskGroup<ImageInfo, Error>) async {
-        self.group = group
-    }
-    
     /// 从 url 中拿到图片清晰度
     /// - Parameter url: 图片 url, eg: https://p6-dcd.byteimg.com/img/tos-cn-i-0000/d34a6238984c4a319f6417fb18cbac26~tplv-resize:202:0.webp
     /// - Throws: 从图片中拿不到分辨率的错误
@@ -139,7 +135,7 @@ extension SDWebImageDownloader {
     enum ImageDownloadError: Error {
         case taskCancelled
     }
-    func downloadImageAsync(with url: URL?) async throws -> UIImage {
+    func downloadImageAsync(with url: URL?) async throws -> Image {
         try await withCheckedThrowingContinuation { continuation in
             if Task.isCancelled {
                 continuation.resume(throwing: ImageDownloadError.taskCancelled)

@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftTestApp: App {
     init() {
         Task.detached(priority: .userInitiated) {
-            try await TestGroupTest().test()
+            await CustomActor().test()
         }
     }
     var body: some Scene {

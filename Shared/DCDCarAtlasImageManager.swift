@@ -4,9 +4,15 @@
 //  Created by chenhaoyu.1999 on 2021/8/26.
 //
 
+#if !os(macOS)
 import UIKit
-import SDWebImage
 typealias Image = UIImage
+#else
+import AppKit
+typealias Image = NSImage
+#endif
+import SDWebImage
+
 
 enum DCDCarAtlasImageManagerError: Error {
     case noClarityInUrl, networkError, noFirstImage, emptyUrl

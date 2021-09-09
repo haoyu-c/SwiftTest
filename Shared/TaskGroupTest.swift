@@ -28,6 +28,7 @@ struct TestGroupTest {
                 }
             }
             var sum = 0
+            // 测试 cooperative cancel
             for try await num in group {
                 print(num)
                 if num == 4 || num == 5 {
@@ -35,6 +36,7 @@ struct TestGroupTest {
                 }
                 sum += num
             }
+            // 处理单个问题错误
 //            while !group.isEmpty {
 //                do {
 //                    sum += try await group.next() ?? 0
@@ -45,5 +47,16 @@ struct TestGroupTest {
             
             print(sum)
         }
+    }
+    
+    func test2() async {
+        @Sendable func wait1Second() async -> Int {
+            await Task.sleep(2)
+            print("wait ended")
+            return 0
+        }
+        // 虽然没有 await, 但是还是挡着等待执行完成
+        async let value = wait1Second()
+        print("func ended")
     }
 }

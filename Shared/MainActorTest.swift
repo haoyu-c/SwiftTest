@@ -7,13 +7,25 @@
 
 import Foundation
 
-//actor BankAccount {
-//    var money: Double = 0
-//    
-//    func getMoney() {
-//        DispatchQueue.global().async {
-//            // Actor-isolated property 'money' can not be mutated from a Sendable closure
-////            money += 1
-//        }
-//    }
-//}
+@MainActor var globalNumber = 0
+
+@MainActor func globalFunction() {
+    print(Thread.current)
+}
+
+actor CustomActor {
+    var actorNumber = 0
+    func test() async {
+        print(Thread.current)
+        await globalFunction()
+        await mutableGlobalNumber()
+        DispatchQueue.global().async {
+            Task.detached(priority: nil) {
+                await self.mutableGlobalNumber()
+            }
+        }
+    }
+    @MainActor func mutableGlobalNumber() {
+        globalNumber += 1
+    }
+}
